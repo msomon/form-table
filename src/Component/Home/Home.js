@@ -36,8 +36,9 @@ const Home = () => {
         <div>
             <div className='flex h-screen justify-center items-center '>
             <div className="card border-t-4 w-[680px] bg-base-100 shadow-xl items-center ">
+                    <h2 className="text-start text-xl font-bold underline mb-6">Receipt cart</h2>
                 <div className="card-body">
-                    <h2 className="text-start text-xl font-bold underline mb-4">Receipt Details</h2>
+                    <h2 className="text-start text-xl font-bold underline mb-6">Receipt Details</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
 
                         <div className="form-control w-full justify-center items-center gap-14 flex-row max-w-xs">
